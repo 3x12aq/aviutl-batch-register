@@ -111,7 +111,7 @@ class AviutlControl
 
   static ChooseSceneFromIndex(index)
   {
-    if Type(sceneName) != "Integer"
+    if Type(index) != "Integer"
     {
       Throw(Error())
     }
